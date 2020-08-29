@@ -57,7 +57,7 @@ export default function App() {
               </View>
 
               <View style={styles.likesContainer}>
-                <Text style={styles.likeText} testID={`repository-likes-${repository.id}`}>{repository.likes}</Text>
+                <Text style={styles.likeText} testID={`repository-likes-${repository.id}`}>{repository.likes} curtidas</Text>
               </View>
 
               <TouchableOpacity style={styles.button}
